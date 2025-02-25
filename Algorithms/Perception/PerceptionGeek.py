@@ -28,7 +28,7 @@ def perceptron(X, y, w_init):
 
 means = [[-1, 0], [1, 0]]
 cov = [[.3, .2], [.2, .3]]
-N = 4
+N = 50
 
 X0 = np.random.multivariate_normal(means[0], cov, N)
 X1 = np.random.multivariate_normal(means[1], cov, N)

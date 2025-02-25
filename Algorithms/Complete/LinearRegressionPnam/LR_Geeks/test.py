@@ -31,7 +31,7 @@ lr = LinearRegression()
 lr.fit(train_input, train_output)
 
 
-plt. figure(figsize=(16, 12))
+plt.figure(figsize=(16, 12))
 plt.scatter(df['x'], df['y'])
 plt.plot(df['x'], [lr.w[0]+lr.w[1]*i for i in df['x']], color='red')
 print(lr.w)

@@ -85,7 +85,6 @@ class MLPClassifier:
             id0 = range(Yhat.shape[0])
             Yhat[id0, y] -= 1
             E = Yhat / X.shape[0]
-            print(E.shape)
 
             dW = []
             db = []
