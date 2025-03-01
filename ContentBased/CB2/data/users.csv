@@ -1,0 +1,7 @@
+user_id,user_name,user_age,gender,occupation,music_preference,listening_hours_per_week
+1,Alice,25,Female,Student,Pop,10
+2,Bob,30,Male,Engineer,Rock,15
+3,Charlie,22,Male,Student,Jazz,8
+4,David,35,Male,Doctor,Classical,12
+5,Emma,28,Female,Teacher,Pop,20
+6,Frank,40,Male,Musician,Country,25
